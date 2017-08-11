@@ -1,0 +1,11 @@
+{
+  "name": "apidoc接口",
+  "version": "0.0.1",
+  "description": "apidoc接口",
+  "title": "apidoc接口",
+  "url" : "http://localhost:8080",
+  "order": ["Example","Home"],
+  "template": {
+  	"forceLanguage": "zh_cn"
+  }
+}
