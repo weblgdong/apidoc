@@ -16,7 +16,6 @@ apidoc -i docs/ -o apidoc/ -t template/
 ```
 
 ### 目录
-
 ├── apidoc 输出文件  
 ├── docs 输入/源目录名   
 ├── template  模板文件   
@@ -30,7 +29,7 @@ apidoc -i docs/ -o apidoc/ -t template/
 修改 api_group.js    
 找到apidoc npm目录下的 workers/api_group.js     
 默认在 C:\Users\Administrator\AppData\Roaming\npm\node_modules\apidoc\node_modules\apidoc-core\lib\workers    
-83行 注释和删除replace(/[^\w]/g, '_');       
+83行 注释和删除.replace(/[^\w]/g, '_');       
 ```js
  group = group//.replace(/[^\w]/g, '_');
 ```
