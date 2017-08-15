@@ -4,8 +4,9 @@
 
 temp  [https://github.com/apidoc/apidoc](https://github.com/apidoc/apidoc)
 
-------
+
 ### 使用方法
+------
 #### 安装apidoc
 ```npm
 npm install -g apidoc
@@ -15,15 +16,16 @@ npm install -g apidoc
 apidoc -i docs/ -o apidoc/ -t template/
 ```
 
-------
 ### 目录
+------
 ├── apidoc 输出文件  
 ├── docs 输入/源目录名   
 ├── template  模板文件   
 ├── apidoc.json apidoc配置文件   
 
-------
+
 ### 注意事项
+------
 #### apidoc测边栏显示中文
 如果在apiGroup用中文,导航的测边栏会显示乱码。   
 解决方法：   
