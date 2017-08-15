@@ -23,7 +23,7 @@ apidoc -i docs/ -o apidoc/ -t template/
 
 
 ### 注意事项
-#### apidoc测边栏显示中文
+#### apidoc测边栏显示中文(@apiGroup 用中文分组 显示乱码(____))
 如果在apiGroup用中文,导航的测边栏会显示乱码。   
 解决方法：   
 修改 api_group.js    
